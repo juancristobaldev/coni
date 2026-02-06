@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dra. Constanza Cayuman - Odontología Integral</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+      }
+      .font-serif {
+        font-family: "Playfair Display", serif;
+      }
+      .bg-soft-teal {
+        background-color: #e0f2f1;
+      }
+      .text-soft-teal {
+        color: #00897b;
+      }
+      .bg-soft-pink {
+        background-color: #fdf2f8;
+      }
+      .accent-pink {
+        color: #db2777;
+      }
+      .gradient-brand {
+        background: linear-gradient(135deg, #e0f7f4 0%, #fce7f3 100%);
+      }
+      .btn-whatsapp {
+        background-color: #25d366;
+        transition: transform 0.2s;
+      }
+      .btn-whatsapp:hover {
+        transform: scale(1.05);
+      }
+    </style>
+  </head>
+  <body class="bg-slate-50 text-slate-800">
+    <!-- Header / Navigation -->
+    <nav
+      class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-100"
+    >
+      <div
+        class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between"
+      >
+        <div class="flex items-center gap-2">
+          <i data-lucide="sparkles" class="text-teal-500"></i>
+          <span class="font-bold text-lg tracking-tight"
+            >Dra. Constanza Cayuman</span
+          >
+        </div>
+        <a
+          href="https://wa.me/56988307328"
+          class="hidden md:flex items-center gap-2 bg-teal-600 text-white px-5 py-2 rounded-full font-medium hover:bg-teal-700 transition-colors"
+        >
+          <i data-lucide="calendar"></i>
+          Agendar ahora
+        </a>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="gradient-brand py-16 md:py-24 px-4">
+      <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+        <div class="space-y-6 text-center md:text-left">
+          <span
+            class="inline-block px-4 py-1 rounded-full bg-white/50 text-teal-700 font-semibold text-sm uppercase tracking-wider"
+            >Temuco, Chile</span
+          >
+          <h1
+            class="text-4xl md:text-6xl font-serif text-slate-900 leading-tight"
+          >
+            Agenda tu <span class="italic text-teal-600">horita</span> conmigo
+          </h1>
+          <p
+            class="text-lg text-slate-600 leading-relaxed max-w-md mx-auto md:mx-0"
+          >
+            Atención dental integral diseñada para brindar salud y confianza a
+            toda la familia. Niños y adultos son bienvenidos en un espacio
+            profesional y cercano.
+          </p>
+          <div
+            class="flex flex-col sm:flex-row gap-4 pt-4 justify-center md:justify-start"
+          >
+            <a
+              href="https://wa.me/56988307328"
+              class="btn-whatsapp text-white px-8 py-4 rounded-xl font-bold flex items-center justify-center gap-2 shadow-lg shadow-green-200"
+            >
+              <i data-lucide="message-circle"></i>
+              CONTÁCTAME POR WHATSAPP
+            </a>
+          </div>
+        </div>
+        <div class="relative flex justify-center">
+          <div
+            class="w-72 h-72 md:w-96 md:h-96 rounded-full overflow-hidden border-8 border-white shadow-2xl"
+          >
+            <!-- Fallback para la imagen de la doctora -->
+            <img
+              src="https://images.unsplash.com/photo-1559839734-2b71f1e598c6?auto=format&fit=crop&q=80&w=800"
+              alt="Dra. Constanza Cayuman"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div
+            class="absolute -bottom-4 bg-white p-4 rounded-2xl shadow-xl flex items-center gap-3"
+          >
+            <div class="bg-pink-100 p-2 rounded-full">
+              <i data-lucide="heart" class="text-pink-500 w-5 h-5"></i>
+            </div>
+            <div>
+              <p class="text-xs font-bold text-slate-400">ESPECIALIDAD</p>
+              <p class="font-semibold text-slate-800">
+                Atención Dental Integral
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Info Quick Cards -->
+    <section class="py-12 px-4 max-w-6xl mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div
+          class="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm flex items-start gap-4"
+        >
+          <div class="bg-teal-50 p-3 rounded-xl text-teal-600 flex-shrink-0">
+            <i data-lucide="clock"></i>
+          </div>
+          <div>
+            <h3 class="font-bold">Horarios</h3>
+            <p class="text-slate-500 text-sm">Lun a Vie: 10:00 am - 9:00 pm</p>
+          </div>
+        </div>
+        <div
+          class="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm flex items-start gap-4"
+        >
+          <div class="bg-pink-50 p-3 rounded-xl text-pink-600 flex-shrink-0">
+            <i data-lucide="map-pin"></i>
+          </div>
+          <div>
+            <h3 class="font-bold">Ubicación</h3>
+            <p class="text-slate-500 text-sm">España 428, Of. 308, Temuco</p>
+          </div>
+        </div>
+        <div
+          class="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm flex items-start gap-4"
+        >
+          <div class="bg-blue-50 p-3 rounded-xl text-blue-600 flex-shrink-0">
+            <i data-lucide="users"></i>
+          </div>
+          <div>
+            <h3 class="font-bold">Paciente</h3>
+            <p class="text-slate-500 text-sm">Adultos y Niños</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Treatments Grid -->
+    <section class="py-20 px-4 bg-white">
+      <div class="max-w-6xl mx-auto">
+        <div class="text-center mb-16 space-y-4">
+          <h2 class="text-3xl md:text-4xl font-serif text-slate-900">
+            Tratamientos Disponibles
+          </h2>
+          <div class="w-16 h-1 bg-teal-500 mx-auto rounded-full"></div>
+          <p class="text-slate-500">
+            Todos los servicios que necesitas para una sonrisa sana
+          </p>
+        </div>
+
+        <!-- 
+               Responsive Grid Logic: 
+               - Default (Mobile): grid-cols-2 (2 items per row)
+               - Tablet (md): grid-cols-2 (Keeps 2 items per row for better readability on narrow tablets, dividing 10 items neatly)
+               - Desktop (lg): grid-cols-5 (5 items per row, creating exactly 2 rows for 10 items)
+            -->
+        <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-6">
+          <!-- 1. Urgencias -->
+          <div
+            class="p-6 rounded-2xl bg-slate-50 border border-transparent hover:border-teal-100 hover:bg-teal-50/30 transition-all text-center group"
+          >
+            <i
+              data-lucide="alert-circle"
+              class="mx-auto mb-4 text-slate-400 group-hover:text-red-500 transition-colors w-8 h-8"
+            ></i>
+            <p class="font-semibold text-sm md:text-base">Urgencias</p>
+          </div>
+
+          <!-- 2. Limpiezas -->
+          <div
+            class="p-6 rounded-2xl bg-slate-50 border border-transparent hover:border-teal-100 hover:bg-teal-50/30 transition-all text-center group"
+          >
+            <i
+              data-lucide="sparkles"
+              class="mx-auto mb-4 text-slate-400 group-hover:text-teal-500 transition-colors w-8 h-8"
+            ></i>
+            <p class="font-semibold text-sm md:text-base">Limpiezas</p>
+          </div>
+
+          <!-- 3. Blanqueamientos -->
+          <div
+            class="p-6 rounded-2xl bg-slate-50 border border-transparent hover:border-teal-100 hover:bg-teal-50/30 transition-all text-center group"
+          >
+            <i
+              data-lucide="sun"
+              class="mx-auto mb-4 text-slate-400 group-hover:text-yellow-500 transition-colors w-8 h-8"
+            ></i>
+            <p class="font-semibold text-sm md:text-base">Blanqueamientos</p>
+          </div>
+
+          <!-- 4. Sellantes -->
+          <div
+            class="p-6 rounded-2xl bg-slate-50 border border-transparent hover:border-teal-100 hover:bg-teal-50/30 transition-all text-center group"
+          >
+            <i
+              data-lucide="shield-check"
+              class="mx-auto mb-4 text-slate-400 group-hover:text-blue-500 transition-colors w-8 h-8"
+            ></i>
+            <p class="font-semibold text-sm md:text-base">Sellantes</p>
+          </div>
+
+          <!-- 5. Barniz de Flúor -->
+          <div
+            class="p-6 rounded-2xl bg-slate-50 border border-transparent hover:border-teal-100 hover:bg-teal-50/30 transition-all text-center group"
+          >
+            <i
+              data-lucide="droplet"
+              class="mx-auto mb-4 text-slate-400 group-hover:text-cyan-500 transition-colors w-8 h-8"
+            ></i>
+            <p class="font-semibold text-sm md:text-base">Barniz de Flúor</p>
+          </div>
+
+          <!-- 6. Composites (Tapaduras) -->
+          <div
+            class="p-6 rounded-2xl bg-slate-50 border border-transparent hover:border-teal-100 hover:bg-teal-50/30 transition-all text-center group"
+          >
+            <i
+              data-lucide="layers"
+              class="mx-auto mb-4 text-slate-400 group-hover:text-gray-600 transition-colors w-8 h-8"
+            ></i>
+            <p class="font-semibold text-sm md:text-base">
+              Composites (Tapaduras)
+            </p>
+          </div>
+
+          <!-- 7. Prótesis -->
+          <div
+            class="p-6 rounded-2xl bg-slate-50 border border-transparent hover:border-teal-100 hover:bg-teal-50/30 transition-all text-center group"
+          >
+            <i
+              data-lucide="smile"
+              class="mx-auto mb-4 text-slate-400 group-hover:text-pink-500 transition-colors w-8 h-8"
+            ></i>
+            <p class="font-semibold text-sm md:text-base">Prótesis</p>
+          </div>
+
+          <!-- 8. Coronas -->
+          <div
+            class="p-6 rounded-2xl bg-slate-50 border border-transparent hover:border-teal-100 hover:bg-teal-50/30 transition-all text-center group"
+          >
+            <i
+              data-lucide="crown"
+              class="mx-auto mb-4 text-slate-400 group-hover:text-yellow-600 transition-colors w-8 h-8"
+            ></i>
+            <p class="font-semibold text-sm md:text-base">Coronas</p>
+          </div>
+
+          <!-- 9. Incrustaciones -->
+          <div
+            class="p-6 rounded-2xl bg-slate-50 border border-transparent hover:border-teal-100 hover:bg-teal-50/30 transition-all text-center group"
+          >
+            <i
+              data-lucide="puzzle"
+              class="mx-auto mb-4 text-slate-400 group-hover:text-purple-500 transition-colors w-8 h-8"
+            ></i>
+            <p class="font-semibold text-sm md:text-base">Incrustaciones</p>
+          </div>
+
+          <!-- 10. Educación en Higiene -->
+          <div
+            class="p-6 rounded-2xl bg-slate-50 border border-transparent hover:border-teal-100 hover:bg-teal-50/30 transition-all text-center group"
+          >
+            <i
+              data-lucide="book-open"
+              class="mx-auto mb-4 text-slate-400 group-hover:text-green-600 transition-colors w-8 h-8"
+            ></i>
+            <p class="font-semibold text-sm md:text-base">
+              Educación en Higiene
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="py-20 px-4 bg-slate-50">
+      <div class="max-w-6xl mx-auto flex flex-col md:flex-row gap-12">
+        <div class="flex-1 space-y-6">
+          <h2 class="text-3xl font-serif">¿Dónde estamos?</h2>
+          <div class="space-y-4">
+            <div class="flex items-start gap-4">
+              <i
+                data-lucide="navigation"
+                class="text-teal-600 mt-1 flex-shrink-0"
+              ></i>
+              <div>
+                <p class="font-bold">Edificio Nuevo Centro</p>
+                <p class="text-slate-600">España 428, Oficina 308, Temuco.</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-4">
+              <i
+                data-lucide="clock"
+                class="text-teal-600 mt-1 flex-shrink-0"
+              ></i>
+              <div>
+                <p class="font-bold text-teal-600">Horario Extendido</p>
+                <p class="text-slate-600">
+                  Lunes a Viernes de 10:00 am a 9:00 pm
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="bg-white p-6 rounded-2xl shadow-md space-y-4">
+            <p class="font-semibold">¿Tienes dudas o necesitas una urgencia?</p>
+            <a
+              href="https://wa.me/56988307328"
+              class="inline-flex items-center gap-2 text-teal-600 font-bold hover:underline"
+            >
+              Hablar con la Dra. ahora
+              <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </a>
+          </div>
+        </div>
+        <div
+          class="flex-1 min-h-[300px] bg-slate-200 rounded-3xl overflow-hidden shadow-inner relative"
+        >
+          <!-- Simulación de mapa con imagen (en un sitio real usarías el iframe de Google Maps) -->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3112.308280970798!2d-72.6116155!3d-38.73368740000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9614d3f68261ac6f%3A0xf354904435cb0118!2sEspa%C3%B1a%20428%2C%204801011%20Temuco%2C%20Araucan%C3%ADa!5e0!3m2!1ses-419!2scl!4v1770395551406!5m2!1ses-419!2scl"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <div
+            class="absolute inset-0 flex flex-col items-end justify-end p-1 text-center"
+          >
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=España+428+Temuco"
+                target="_blank"
+                class="mt-4 bg-white shadow-lg px-6 py-2 rounded-full text-sm font-bold  hover:shadow-md transition-shadow"
+              >
+                Ver en Google Maps
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-slate-100 py-12 px-4">
+      <div
+        class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8"
+      >
+        <div class="text-center md:text-left space-y-2">
+          <h3 class="font-bold text-xl">Dra. Constanza Cayuman</h3>
+          <p class="text-slate-400 text-sm">Cuidando tu sonrisa en Temuco.</p>
+        </div>
+
+        <div class="flex gap-6">
+          <a
+            href="https://www.instagram.com/dra.cayuman"
+            target="_blank"
+            class="bg-pink-50 text-pink-500 p-3 rounded-full hover:bg-pink-500 hover:text-white transition-all"
+          >
+            <i data-lucide="instagram"></i>
+          </a>
+          <a
+            href="#"
+            target="_blank"
+            class="bg-blue-50 text-blue-600 p-3 rounded-full hover:bg-blue-600 hover:text-white transition-all"
+          >
+            <i data-lucide="facebook"></i>
+          </a>
+          <a
+            href="https://wa.me/56988307328"
+            class="bg-green-50 text-green-600 p-3 rounded-full hover:bg-green-500 hover:text-white transition-all"
+          >
+            <i data-lucide="message-circle"></i>
+          </a>
+        </div>
+      </div>
+      <div
+        class="max-w-6xl mx-auto mt-12 pt-8 border-t border-slate-50 text-center text-slate-400 text-xs"
+      >
+        © 2025 Dra. Constanza Belén Cayuman Contreras. Todos los derechos
+        reservados.
+      </div>
+    </footer>
+
+    <!-- Floating Mobile Action -->
+    <div class="fixed bottom-6 right-6 md:hidden z-50">
+      <a
+        href="https://wa.me/56988307328"
+        class="btn-whatsapp w-16 h-16 rounded-full flex items-center justify-center text-white shadow-2xl animate-bounce"
+      >
+        <i data-lucide="message-circle" class="w-8 h-8"></i>
+      </a>
+    </div>
+
+    <script>
+      // Initialize Lucide Icons
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
